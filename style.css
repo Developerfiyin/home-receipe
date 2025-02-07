@@ -48,5 +48,21 @@ ul li a:active a {
 }
 .main {
   max-width: 1200px;
-  margin: 0%;
+  margin: auto;
+}
+.title {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: #fff;
+  font-size: 70px;
+}
+.button {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

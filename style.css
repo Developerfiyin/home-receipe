@@ -66,3 +66,11 @@ ul li a:active a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.btn {
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  transition: 0.5 ease;
+  font-size: 18px;
+  text-decoration: none;
+}

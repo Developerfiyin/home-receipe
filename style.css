@@ -41,3 +41,12 @@ ul li a:active a {
   color: #000;
   background-color: #ffff;
 }
+.logo img {
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.main {
+  max-width: 1200px;
+  margin: 0%;
+}

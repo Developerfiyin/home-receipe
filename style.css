@@ -97,6 +97,12 @@ ul li a:active a {
   display: block;
   margin: 6px;
 }
-.main ul li:hover {
+.main ul li:hover .sub-menu ul li {
   width: 75px;
+  padding: 5px;
+  border-bottom: 1px #fff;
+  background: transparent;
+  transition: 0.4 ease;
+  border-radius: 0px;
+  text-align: left;
 }

@@ -20,8 +20,8 @@ ul {
   list-style-type: none;
   min-height: 400px;
   margin-top: 30px;
-  margin-right: 60px;
-  font-size: 17px;
+  margin-right: 40px;
+  font-size: 16px;
 }
 ul li {
   display: inline-block;
@@ -77,4 +77,26 @@ ul li a:active a {
 .btn:hover {
   background-color: #fff;
   color: #000;
+}
+.sub-menu {
+  display: none;
+  top: 6%;
+  position: relative;
+}
+.sub-menu ul {
+  position: absolute;
+}
+.main ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 45, 117);
+  margin-left: -8px;
+  margin-top: 12px;
+}
+.main ul li:hover .sub-menu ul {
+  display: block;
+  margin: 6px;
+}
+.main ul li:hover {
+  width: 75px;
 }
